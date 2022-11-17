@@ -40,6 +40,20 @@
                 $("#message").html(data + ":" + update);
             }) 21
         }
+
+        function
+        var fetchAll() {
+                TestClass = ncmb.DataStore TestClass.fetchAll().then(function(results) {
+                            var msg = "";
+                            for (var i = 0; i < results.length
+                                var data = results[].get("text");
+                                var update = results[(" FetchTest ; i i ].get("
+                                        i++) {
+                                        updateDate msg += data + ":" + update;
+                                    }
+                                    $("#message").html(msg);
+                                })
+                        }
     </script>
 </head>
 
